@@ -1,0 +1,19 @@
+.margin {
+    margin-top: 50px;
+}
+
+.start-button {
+    margin: 100px 40px 200px 0px;
+}
+
+.padding {
+    padding-bottom: 50px;
+}
+
+.question {
+    padding: 50px 0 50px 0;
+}
+
+body {
+    background-color: #AC868B;
+}

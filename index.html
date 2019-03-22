@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Wine Quiz</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/javascript/app.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Wine Quiz</span>
+        </nav>
+
+        <div id="game-section" class="container card margin">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 id="quiz-title">Wine Quiz</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 id="timer">30</h3>
+                    <h3 id="question" class="question"></h3>
+                </div>
+            </div>
+
+            <div class="row padding">
+                <div class="col-lg-3">
+
+                </div>
+                <div class="col-lg-6">
+                    <div id="start-page">
+                        <h1 id="start-page-title" class="text-center margin">Wine Quiz</h1>
+                        <h3 id="start-page-subtitle" class="text-center margin">Test your wine knowledge!</h3>
+                        <button type="button" class="btn btn-outline-success btn-lg btn-block start-button" id="start">Start</button>
+                    </div>
+                    <div id="answer-buttons">
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block" id="button1"></button>
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block" id="button2"></button>
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block" id="button3"></button>
+                        <button type="button" class="btn btn-outline-danger btn-lg btn-block" id="button4"></button>
+                    </div>
+                    <div id="result-content">
+                        <h2 id="result" class="text-center"></h2>
+                        <h4 id="result-message" class="text-center"></h4>
+                    </div>
+                    <div id="final-results-summary">
+                        <h1 id="final-results-text" class="text-center">Final Results</h1>
+                        <h2 id="correct-total" class="text-center"></h2>
+                        <h2 id="wrong-total" class="text-center"></h2>
+                        <button type="button" class="btn btn-outline-warning btn-lg btn-block" id="restart-button">Restart</button>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
